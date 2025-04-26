@@ -1,0 +1,6 @@
+(function($){"use strict";$(window).on('elementor/frontend/init',()=>{elementorFrontend.hooks.addAction('frontend/element_ready/beezi-scene-flight.default',($scope)=>{let id=$scope.data('id'),scene=function(){let sceneFlight=document.querySelector('#scene-flight-'+id),sceneFlightBee=document.querySelector('#scene-flight-bee-'+id),sceneFlightPath=document.querySelector('#scene-flight-path-'+id),sceneFlightPathContainer=document.querySelector('#scene-flight-path-container-'+id),sceneFlightPathLines=document.querySelector('#scene-flight-path-lines-'+id)
+if("pointer-events" in document.body.style){gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(MotionPathPlugin)
+gsap.set(sceneFlight,{display:'block'});gsap.to(sceneFlightBee,{scrollTrigger:{trigger:sceneFlightPathContainer,duration:1.5,start:"top 100%",end:"top center",scrub:1,invalidateOnRefresh:!0},motionPath:{path:sceneFlightPath,align:sceneFlightPath,start:0.5,end:1,autoRotate:!0,alignOrigin:[0.5,0.5],},ease:"none"})
+gsap.to(sceneFlightPathLines,{scrollTrigger:{trigger:sceneFlightPathContainer,duration:1.5,start:"top 100%",end:"top center",scrub:1,invalidateOnRefresh:!0},'stroke-dashoffset':-2060,ease:"none"})}}
+window.addEventListener('load',scene())})})})(jQuery)

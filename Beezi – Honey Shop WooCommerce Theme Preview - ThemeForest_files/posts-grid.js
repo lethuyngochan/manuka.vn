@@ -1,0 +1,1 @@
+(function($){"use strict";$(window).on('elementor/frontend/init',()=>{const addHandler=($element)=>{let addHandler=$('.beezi-swiper',$element);if(addHandler.length>0){elementorFrontend.elementsHandler.addHandler(beeziSwiperBase,{$element,})}};elementorFrontend.hooks.addAction('frontend/element_ready/beezi-post-grid.default',addHandler)})})(jQuery)
