@@ -1,1 +1,33 @@
-@font-face{font-display:swap;font-family:"BeezisPecial";src:url(../../../../../../../../../themes/beezi/assets/fonts/beezispecial-webfont.woff2) format("woff2"),url(../../../../../../../../../themes/beezi/assets/fonts/beezispecial-webfont.woff) format("woff");font-weight:400}@font-face{font-display:swap;font-family:"BeeziHeading";src:url(../../../../../../../../../themes/beezi/assets/fonts/beeziheading.eot);src:url(../../../../../../../../../themes/beezi/assets/fonts/beeziheading.eot) format("embedded-opentype"),url(../../../../../../../../../themes/beezi/assets/fonts/beeziheading.woff2) format("woff2"),url(../../../../../../../../../themes/beezi/assets/fonts/beeziheading.woff) format("woff"),url(../../../../../../../../../themes/beezi/assets/fonts/beeziheading.ttf) format("truetype"),url("../../../../../../../../../themes/beezi/assets/fonts/beeziheading.svg#beeziheading") format("svg")}@font-face{font-display:swap;font-family:"Beezi";src:url(../../../../../../../../../themes/beezi/assets/fonts/beeziregular.eot);src:url(../../../../../../../../../themes/beezi/assets/fonts/beeziregular.eot) format("embedded-opentype"),url(../../../../../../../../../themes/beezi/assets/fonts/beeziregular.woff2) format("woff2"),url(../../../../../../../../../themes/beezi/assets/fonts/beeziregular.woff) format("woff"),url(../../../../../../../../../themes/beezi/assets/fonts/beeziregular.ttf) format("truetype"),url("../../../../../../../../../themes/beezi/assets/fonts/beeziregular.svg#beeziregular") format("svg");font-weight:400}@font-face{font-display:swap;font-family:"Beezi";src:url(../../../../../../../../../themes/beezi/assets/fonts/beezimedium.eot);src:url(../../../../../../../../../themes/beezi/assets/fonts/beezimedium.eot) format("embedded-opentype"),url(../../../../../../../../../themes/beezi/assets/fonts/beezimedium.woff2) format("woff2"),url(../../../../../../../../../themes/beezi/assets/fonts/beezimedium.woff) format("woff"),url(../../../../../../../../../themes/beezi/assets/fonts/beezimedium.ttf) format("truetype"),url("../../../../../../../../../themes/beezi/assets/fonts/beezimedium.svg#beezimedium") format("svg");font-weight:500}@font-face{font-display:swap;font-family:"Beezi";src:url(../../../../../../../../../themes/beezi/assets/fonts/beezibold.eot);src:url(../../../../../../../../../themes/beezi/assets/fonts/beezibold.eot) format("embedded-opentype"),url(../../../../../../../../../themes/beezi/assets/fonts/beezibold.woff2) format("woff2"),url(../../../../../../../../../themes/beezi/assets/fonts/beezibold.woff) format("woff"),url(../../../../../../../../../themes/beezi/assets/fonts/beezibold.ttf) format("truetype"),url("../../../../../../../../../themes/beezi/assets/fonts/beezibold.svg#beezibold") format("svg");font-weight:600}
+@font-face {
+    font-family: "KaushanScript-Regular";
+    src: url(../fonts/KaushanScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PTSerif";
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Arial;
+    src: url(../../../../../../../../../themes/beezi/assets/fonts/beeziregular.eot);
+    src: url(../../../../../../../../../themes/beezi/assets/fonts/beeziregular.eot) format("embedded-opentype"), url(../../../../../../../../../themes/beezi/assets/fonts/beeziregular.woff2) format("woff2"), url(../../../../../../../../../themes/beezi/assets/fonts/beeziregular.woff) format("woff"), url(../../../../../../../../../themes/beezi/assets/fonts/beeziregular.ttf) format("truetype"), url("../../../../../../../../../themes/beezi/assets/fonts/beeziregular.svg#beeziregular") format("svg");
+    font-weight: 400
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Arial;
+    src: url(../../../../../../../../../themes/beezi/assets/fonts/beezimedium.eot);
+    src: url(../../../../../../../../../themes/beezi/assets/fonts/beezimedium.eot) format("embedded-opentype"), url(../../../../../../../../../themes/beezi/assets/fonts/beezimedium.woff2) format("woff2"), url(../../../../../../../../../themes/beezi/assets/fonts/beezimedium.woff) format("woff"), url(../../../../../../../../../themes/beezi/assets/fonts/beezimedium.ttf) format("truetype"), url("../../../../../../../../../themes/beezi/assets/fonts/beezimedium.svg#beezimedium") format("svg");
+    font-weight: 500
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Arial;
+    src: url(../../../../../../../../../themes/beezi/assets/fonts/beezibold.eot);
+    src: url(../../../../../../../../../themes/beezi/assets/fonts/beezibold.eot) format("embedded-opentype"), url(../../../../../../../../../themes/beezi/assets/fonts/beezibold.woff2) format("woff2"), url(../../../../../../../../../themes/beezi/assets/fonts/beezibold.woff) format("woff"), url(../../../../../../../../../themes/beezi/assets/fonts/beezibold.ttf) format("truetype"), url("../../../../../../../../../themes/beezi/assets/fonts/beezibold.svg#beezibold") format("svg");
+    font-weight: 600
+}

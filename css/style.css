@@ -1,1 +1,266 @@
-.beezi-icons-list{display:flex;flex-wrap:wrap;justify-content:flex-start;margin-left:-1em;margin-right:-1em}.beezi-icons-list .glyph{display:inline-block;width:9em;margin:1em;text-align:center;vertical-align:top;border:1px solid #eee;background-color:#f7f7f7}.beezi-icons-list .class-name{color:#223645;padding:10px}.beezi-icons-list [class*="beezi-icon"]{padding:20px;display:block;font-size:36px;line-height:1;color:#223645;background:#fff}body.custom-background.page-id-2084{background:#f0f5fb}
+.beezi-icons-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -1em;
+    margin-right: -1em
+}
+
+.beezi-icons-list .glyph {
+    display: inline-block;
+    width: 9em;
+    margin: 1em;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #eee;
+    background-color: #f7f7f7
+}
+
+.beezi-icons-list .class-name {
+    color: #223645;
+    padding: 10px
+}
+
+.beezi-icons-list [class*="beezi-icon"] {
+    padding: 20px;
+    display: block;
+    font-size: 36px;
+    line-height: 1;
+    color: #223645;
+    background: #fff
+}
+
+body.custom-background.page-id-2084 {
+    background: #f0f5fb
+}
+
+.banner {
+    background: url(../img/h1-bg-slider-min.png) center;
+    background-size: cover;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.yellow-txt {
+    color: var(--e-global-color-primary);
+    font-family: "KaushanScript-Regular", Sans-serif;
+    font-size: 4rem;
+}
+
+.h1 {
+    color: var(--e-global-color-secondary);
+    font-family: "PTSerif", Sans-serif;
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.ptserif {
+    font-family: "PTSerif", Sans-serif;
+}
+
+.font1-5 {
+    font-size: 1.5em;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.bee1 {
+    bottom: 30%;
+    right: 8%;
+    animation-name: bee1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bee1 {
+    0% {
+        bottom: 30%;
+    }
+
+    50% {
+        bottom: 40%;
+    }
+
+    100% {
+        bottom: 30%;
+    }
+}
+
+.bee2 {
+    transform: rotate(-30deg);
+    left: 20%;
+    bottom: 20%;
+    animation: floatCircle 5s infinite ease-in-out;
+}
+
+@keyframes floatCircle {
+    0% {
+        left: 20%;
+        bottom: 20%;
+    }
+
+    25% {
+        left: 40%;
+        bottom: 15%;
+    }
+
+    50% {
+        left: 45%;
+        bottom: 0;
+    }
+
+    75% {
+        left: 15%;
+        bottom: 10%;
+    }
+
+    100% {
+        left: 20%;
+        bottom: 20%;
+    }
+}
+
+.bee3 {
+    transform: rotate(45deg);
+    top: 35%;
+    left: 10%;
+    animation-name: bee3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bee3 {
+    0% {
+        top: 35%;
+    }
+
+    50% {
+        top: 40%;
+    }
+
+    100% {
+        top: 35%;
+    }
+}
+
+.leaves {
+    right: 0;
+    top: 10%;
+    animation-name: leaves;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes leaves {
+    0% {
+        top: 10%;
+    }
+
+    50% {
+        top: 15%;
+    }
+
+    100% {
+        top: 10%;
+    }
+}
+
+.flower {
+    bottom: -20%;
+    left: -20%;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.wave {
+    bottom: 0;
+}
+
+.yellow {
+    color: var(--e-global-color-primary);
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+@media (max-width:767px) {
+    .h1 {
+        font-size: 3.5rem;
+    }
+
+    .max-width-1000 {
+        padding: 0 30px;
+    }
+
+    .yellow-txt {
+        font-size: 2.5rem;
+    }
+
+    .pb-150 {
+        padding-bottom: 100px;
+    }
+
+    .pt-150 {
+        padding-top: 100px;
+    }
+
+    .flower {
+        bottom: -76%;
+        left: -34%;
+    }
+
+    .leaves {
+        right: -20%;
+    }
+
+    @keyframes floatCircle {
+        0% {
+            left: 0;
+            bottom: 0;
+        }
+    
+        25% {
+            left: 20%;
+            bottom: 0;
+        }
+    
+        50% {
+            left: 30%;
+            bottom: -20%;
+        }
+    
+        75% {
+            left: 15%;
+            bottom: -30%;
+        }
+    
+        100% {
+            left: 0;
+            bottom: 0;
+        }
+    }
+}
