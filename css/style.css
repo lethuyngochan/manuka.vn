@@ -49,20 +49,20 @@ body.custom-background.page-id-2084 {
 
 .yellow-txt {
     color: var(--e-global-color-primary);
-    font-family: "KaushanScript-Regular", Sans-serif;
+    font-family: "Caramel-Regular", Sans-serif;
     font-size: 4rem;
 }
 
 .h1 {
     color: var(--e-global-color-secondary);
-    font-family: "PTSerif", Sans-serif;
+    font-family: "Lora", Sans-serif;
     font-size: 5rem;
     text-transform: uppercase;
     line-height: 1;
 }
 
 .ptserif {
-    font-family: "PTSerif", Sans-serif;
+    font-family: "Lora", Sans-serif;
 }
 
 .font1-5 {

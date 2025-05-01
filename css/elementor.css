@@ -2055,7 +2055,7 @@
     letter-spacing: var(--e-global-typography-secondary-letter-spacing);
     font-size: 60px;
     font-size: 3.75rem;
-    line-height: 60px;
+    line-height: 1.2;
     letter-spacing: -1px;
     font-weight: 400;
     color: var(--e-global-color-secondary);
@@ -2072,7 +2072,7 @@
     letter-spacing: var(--e-global-typography-accent-letter-spacing);
     font-size: 64px;
     font-size: 4rem;
-    line-height: 64px;
+    line-height: 0.6;
     letter-spacing: -1px;
     font-weight: 400;
     display: block;
@@ -6730,7 +6730,7 @@ p.recently-notice {
 }
 
 .elementor-widget-n-tabs .e-n-tab-title-text {
-    font-family: "PTSerif", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+    font-family: "Lora", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
 }
 
 @media (max-width:768px) {
@@ -6797,7 +6797,7 @@ p.recently-notice {
 }
 
 .tabs-style-2 .e-n-tab-title-text {
-    font-family: "PTSerif", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+    font-family: "Lora", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
 }
 
 :is(.elementor .elementor-element.elementor-widget-n-tabs>.elementor-widget-container>.e-n-tabs>.e-n-tabs-heading .e-n-tab-title, .elementor .elementor-element.elementor-widget-n-tabs>.elementor-widget-container>.e-n-tabs>.e-n-tabs-content .e-n-tab-title):hover .e-n-tab-icon svg, :is(.elementor .elementor-element.elementor-widget-n-tabs>.elementor-widget-container>.e-n-tabs>.e-n-tabs-heading .e-n-tab-title, .elementor .elementor-element.elementor-widget-n-tabs>.elementor-widget-container>.e-n-tabs>.e-n-tabs-content .e-n-tab-title).e-active .e-n-tab-icon svg {

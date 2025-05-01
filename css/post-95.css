@@ -129,7 +129,7 @@ body.rtl .elementor-95 .elementor-element.elementor-element-9eb0ef6 {
 
 .elementor-95 .elementor-element.elementor-element-63fbbff .elementor-heading-title {
     color: #F9C300;
-    font-family: "KaushanScript-Regular", Sans-serif;
+    font-family: "Caramel-Regular", Sans-serif;
     font-size: 64px;
     font-weight: 400;
     text-transform: lowercase;
@@ -139,7 +139,7 @@ body.rtl .elementor-95 .elementor-element.elementor-element-9eb0ef6 {
 
 .elementor-95 .elementor-element.elementor-element-63fbbff .elementor-sub-title {
     color: var(--e-global-color-text);
-    font-family: "PTSerif", Sans-serif;
+    font-family: "Lora", Sans-serif;
     font-size: 24px;
     font-weight: 400;
     text-transform: none;
@@ -482,10 +482,9 @@ body:not(.rtl) .elementor-95 .elementor-element.elementor-element-67c2e49 .eleme
 .elementor-95 .elementor-element.elementor-element-aa8c1fe {
     text-align: center;
     color: #FFF;
-    font-family: "PTSerif", Sans-serif;
+    font-family: "Lora", Sans-serif;
     font-size: 20px;
     font-weight: 400;
-    line-height: 0
 }
 
 .elementor-95 .elementor-element.elementor-element-7cd2b9d>.elementor-widget-container {
